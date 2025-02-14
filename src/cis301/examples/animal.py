@@ -24,3 +24,6 @@ class Animal(ABC):
     def __str__(self):
         return f"{self.name} says {self.says()}"
 
+if __name__ == '__main__':
+    animal = Animal()
+    print(animal)
