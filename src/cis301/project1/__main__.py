@@ -1,5 +1,4 @@
 import sys
-from cis301.project1.student import Student
 def main(args=None):
     """
         This program that parses the command line, creates a
@@ -11,6 +10,7 @@ def main(args=None):
 
     print ("List of arguments: " , args)
     print (f"Missing command line arguments")
+    parse_cli_argv(args)
     exit(0)
 
 def parse_cli_argv(argv):
