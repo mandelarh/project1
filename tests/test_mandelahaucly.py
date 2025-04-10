@@ -65,7 +65,7 @@ def test_student_args9():
     # Verify the says() method output
     assert student.says() == "Mandela has no classes"
 
-def test_says_with_classes():
+def test_student_args10():
     # Create a Student object with classes
     student = Student("Mandela", ["CIS301", "MATH101"], "3.5")
 

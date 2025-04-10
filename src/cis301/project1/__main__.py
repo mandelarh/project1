@@ -14,7 +14,15 @@ def main(args=None):
     exit(0)
 
 def parse_cli_argv(argv):
-    raise NotImplementedError('not implemented yet')
-    
+    #raise NotImplementedError('not implemented yet')
+    #process input/args
+    #get name
+    #process name
+    #get gpa
+    #get classes
+    #instantiating student object
+    #ex student = student(arguments)
+    #print student
+    pass
 if __name__ == "__main__":
     main()
